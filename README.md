@@ -8,7 +8,7 @@ You need to use Jupyter Notebooks, the easiest way to do so is to install the Py
 
 ## Considerations
 
-Notebooks are wonderfull tools, but they also comes with some caveats that we are trying to handle in this project.
+Notebooks are wonderfull tools, but they also comes with some caveats that we are trying to handle in this project. The most important idea is to move any shared or complicated code in external .py files. Then they will be executed inside the notebooks.
 
 ### Proper presentation
 
@@ -46,6 +46,7 @@ Consider using a `requirements.txt` file.
 
 - Type `%run` to run a python script in an external file
 - Type `%history` to know in which order the cells has been executed
+- Type `%debug` to use the debugger
 
 ## Inspirations
 
