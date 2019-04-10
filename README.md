@@ -34,7 +34,6 @@ Consider using a `requirements.txt` file.
 
 ### Shortcuts
 
-- Use `shift + tab` to open help
 - Use `tab` to get autocompletion once the cell has been executed
 
 ### Commands
