@@ -17,8 +17,8 @@ def normaliser_son_mono(x):
 
 def creer_signal(valeurs,Fs):
     out = signal_mono()
-    #out.x = normaliser_son_mono(valeurs)
-    out.x = valeurs
+    out.x = normaliser_son_mono(valeurs)
+    #out.x = valeurs
 
     out.N= np.size(out.x)
     out.Fs=Fs
